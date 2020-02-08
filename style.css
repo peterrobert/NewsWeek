@@ -1,5 +1,98 @@
-.nw-navigation-bar{
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+a{
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.nw-navigation-bar {
+  width: 100%;
+  background-color: red;
+  height: 45px;
+}
+
+.logo h2 {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 8px;
+}
+
+.nw-bav-btns {
+  float: right;
+  margin-top: 1px;
+}
+
+#signIn {
+  font-family: "Oswald", sans-serif;
+}
+
+.nw-bav-btns :first-child {
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  border: unset;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.nw-bav-btns :nth-child(2) {
+  background: #fff;
+  color: red;
+  text-transform: uppercase;
+  border: unset;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.nw-bav-btns :last-child {
+  background: transparent;
+  border: unset;
+  letter-spacing: 0;
+}
+
+.nw-bav-btns :last-child .fa-bars {
+  color: #fb9a94;
+  font-size: 30px;
+  font-weight: 200;
+  position: relative;
+  top: 4px;
+}
+
+.nw-new-section {
+  margin-top: 20px;
+}
+
+.nw-top-story h1 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.card{
     width: 100%;
-    background-color: red;
-    height: 40px;
+    border: unset;
+}
+
+.card  h5{
+    color: #000;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.card-body{
+    padding: unset;
+    padding-top: 20px;
 }
