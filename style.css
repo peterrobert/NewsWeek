@@ -78,7 +78,7 @@ a:hover {
   margin-top: 20px;
 }
 
-.nw-top-story h1 {
+.nw-new-section h1 {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -125,7 +125,6 @@ a:hover {
   border-top: 1px solid #ccc5c5;
   padding-top: 20px;
   border-radius: unset;
-  
 }
 
 .more-stories .card-body {
@@ -138,13 +137,59 @@ a:hover {
   font-weight: bolder;
 }
 
-.more-stories p{
+.more-stories p {
   margin-top: -10px;
   font-size: 13px;
 }
 
-.culture-travel{
+.culture-travel {
   background-color: #eee;
   width: 100%;
   height: auto;
+  border-radius: 1px;
 }
+
+.culture-travel h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.culture-travel .nw-top-story .card {
+  background-color: #eee;
+}
+
+.culture-travel .category {
+  bottom: unset;
+  left: 10px;
+  width: 60px;
+  padding: 0px;
+}
+
+.culture-travel .category h6 {
+  color: #000;
+  text-transform: capitalize;
+  background-color: #c2d4d7;
+}
+
+.culture-travel .card h5 {
+  font-family: auto;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.culture-travel .card p {
+  padding-left: 10px;
+  color: #828282;
+}
+
+.featured-stories p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.nw-new-section .opinion-section img{
+  border-radius: 50%;
+}
+
