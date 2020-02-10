@@ -1,14 +1,19 @@
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Condensed",sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-a{
-    color: #000;
+a {
+  color: #000;
 }
 
-a:hover{
-    text-decoration: underline;
-    color: #000;
+a:hover {
+  text-decoration: underline;
+  color: #000;
 }
 
 .nw-navigation-bar {
@@ -80,19 +85,66 @@ a:hover{
   padding-bottom: 11px;
 }
 
-.card{
-    width: 100%;
-    border: unset;
+.nw-top-story .card {
+  width: 100%;
+  border: unset;
+  padding-bottom: 20px;
+  border-radius: unset;
 }
 
-.card  h5{
-    color: #000;
-    font-weight: bolder;
-    text-transform: capitalize;
-    font-size: 22px;
+.nw-top-story .card h5 {
+  color: #000;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 22px;
 }
 
-.card-body{
-    padding: unset;
-    padding-top: 20px;
+.nw-top-story .card-body {
+  padding: unset;
+  padding-top: 0px;
+}
+
+.category {
+  background: #eee;
+  width: 98px;
+  height: 32px;
+  position: relative;
+  bottom: 32px;
+  color: red;
+}
+
+.category h6 {
+  text-align: center;
+  padding-top: 7px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.more-stories .card {
+  border: unset;
+  border-top: 1px solid #ccc5c5;
+  padding-top: 20px;
+  border-radius: unset;
+  
+}
+
+.more-stories .card-body {
+  padding: unset;
+  padding-left: 20px;
+}
+
+.more-stories a {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.more-stories p{
+  margin-top: -10px;
+  font-size: 13px;
+}
+
+.culture-travel{
+  background-color: #eee;
+  width: 100%;
+  height: auto;
 }
