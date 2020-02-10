@@ -30,6 +30,10 @@ a:hover {
   margin-top: 8px;
 }
 
+.dummy {
+  display: none;
+}
+
 .nw-bav-btns {
   float: right;
   margin-top: 1px;
@@ -189,7 +193,68 @@ a:hover {
   font-weight: 400;
 }
 
-.nw-new-section .opinion-section img{
+.nw-new-section .opinion-section img {
   border-radius: 50%;
 }
 
+.nw-new-section .opinion-section p {
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.nw-new-section .opinion-section .card:first-child {
+  border-top: unset;
+}
+
+.latest-news-ff .card:first-child {
+  border-top: unset;
+}
+
+.nw-newsletter {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+}
+
+.nw-newsletter img {
+  height: 30px;
+  background-color: red;
+  margin-left: 20px;
+}
+
+.position-nw {
+  padding-top: 10px;
+}
+
+.position-nw h3 {
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 19px;
+}
+
+.news-letter-buttons{
+  padding-left: 40px;
+}
+
+.news-letter-buttons h6{
+  padding-top: 10px;
+  color: #000;
+  font-weight: 600;
+}
+
+.news-letter-buttons button{
+  text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    background: grey;
+    height: 38px;
+    border: unset;
+    text-align: center;
+    outline: none;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+}
