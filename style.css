@@ -336,3 +336,58 @@ a:hover {
   color: #000;
   font-size: 13px;
 }
+
+.img-back-ground {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: inline-table;
+  content: "";
+  width: 26px;
+  height: 25px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+.feature-back-ground {
+  background-image: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png");
+  background-position: unset;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 80px;
+  position: relative;
+  top: -44px;
+}
+
+.feature-back-ground h5 {
+  position: relative;
+  padding-left: 20px;
+  top: 3px;
+  color: red;
+}
+
+.featured-slide-show .card .card-body {
+  margin-top: -38px;
+}
+
+.us-section .card .card-body {
+  margin-top: -10px;
+}
+
+.us-section h1 {
+  letter-spacing: 2px;
+  color: red;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.us-section .latest-news-ff .card .card-body{
+  padding-left: 10px;
+}
+
+.us-section .latest-news-ff .card .card-body h5 a{
+  font-size: 16px;
+}
+.us-section .latest-news-ff .card:first-child{
+  border-top: 1px solid #ccc5c5;
+  padding-top: 20px;
+}
