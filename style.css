@@ -259,6 +259,10 @@ a:hover {
     letter-spacing: 2px;
 }
 
+.opinion-section {
+    margin-top: -10px;
+}
+
 .all-features .card-body {
     margin-top: -32px;
     background-color: #eee;
@@ -530,7 +534,7 @@ a:hover {
 
 /* media queries */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .top-order {
         order: 2;
     }
@@ -557,5 +561,45 @@ a:hover {
     }
     .culture-travel .card p {
         line-height: 18px;
+    }
+    /* .al-f-ed-pik {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    /* .al-f-ed-pik .nw-mag-sec {
+        width: 25%;
+        padding-right: 5px;
+        padding-left: 5px;
+    } */
+    .ed-pick-rep {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ed-pick-rep .sec-title {
+        width: 100%;
+    }
+    .ed-pick-rep .ed-pick {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .ed-pick-rep hr {
+        width: 100%;
+    }
+    .feature-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .feature-1 h1 {
+        width: 100%;
+    }
+    .feature-1 hr {
+        width: 100%;
+    }
+    .feature-1 .card {
+        width: 33.33%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: unset;
     }
 }
