@@ -640,4 +640,54 @@ a:hover {
     .next-to-footer .next-footer-btn {
         justify-content: left;
     }
+    .imge-contents {
+        margin-top: 45px;
+    }
+    .bac-image-f img {
+        padding-left: 20px;
+    }
+    .next-to-footer .card-2 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .next-to-footer .card-2 img {
+        height: auto;
+        width: 30%;
+    }
+    .next-to-footer .card-2 .card-body {
+        width: 70%;
+        border-top: 1px solid #eee;
+        padding: 2%;
+    }
+    .next-to-footer .card-2 .card-body h5 {
+        text-align: left;
+    }
+    .next-to-footer .card-2 .card-body p {
+        text-align: left;
+    }
+    .next-to-footer .card-2 .card-body a {
+        display: table;
+    }
+    .al-f-ed-pik {
+        display: flex;
+    }
+    .al-f-ed-pik .all-features {
+        width: 100%;
+    }
+    .al-f-ed-pik .card-side {
+        margin-top: 61px;
+    }
+    .al-f-ed-pik .dis-mag {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .al-f-ed-pik .dis-mag .sec-title {
+        width: 100%;
+    }
+    .al-f-ed-pik .dis-mag .nw-new-section {
+        width: 33.33%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
