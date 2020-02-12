@@ -590,7 +590,7 @@ a:hover {
         display: flex;
         flex-wrap: wrap;
     }
-    .feature-1 h1 {
+    .feature-1 .sec-title {
         width: 100%;
     }
     .feature-1 hr {
@@ -601,5 +601,43 @@ a:hover {
         padding-left: 2%;
         padding-right: 2%;
         border-radius: unset;
+    }
+    .us-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .us-section hr {
+        width: 100%;
+    }
+    .us-section h1 {
+        width: 100%;
+    }
+    .us-section .card {
+        width: 33.33%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .us-section-2 {
+        width: 33.33%;
+    }
+    .us-section-2 .card {
+        width: 100%;
+    }
+    .us-section-2 .card-img {
+        border-radius: unset;
+        object-fit: cover;
+    }
+    .next-to-footer .imge-section {
+        display: unset;
+        justify-content: unset;
+    }
+    .next-to-footer .imge-contents h3 {
+        text-align: left;
+    }
+    .next-to-footer .imge-contents h4 {
+        text-align: left;
+    }
+    .next-to-footer .next-footer-btn {
+        justify-content: left;
     }
 }
