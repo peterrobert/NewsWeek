@@ -30,6 +30,10 @@ a:hover {
     margin-top: 8px;
 }
 
+.date {
+    display: none;
+}
+
 .dummy {
     display: none;
 }
@@ -62,6 +66,10 @@ a:hover {
     font-size: 14px;
     letter-spacing: 0;
     font-family: "Oswald", sans-serif;
+}
+
+.desktop-navigation {
+    display: none;
 }
 
 .nw-bav-btns :last-child {
@@ -541,6 +549,11 @@ a:hover {
     .feature-order {
         order: 1;
     }
+    .sticky-sec {
+        position: sticky;
+        top: 0;
+        z-index: 0;
+    }
     .m-ct-row {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -689,5 +702,69 @@ a:hover {
         width: 33.33%;
         padding-left: 1%;
         padding-right: 1%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nw-navigation-bar {
+        height: 90px;
+    }
+    .date {
+        display: inline;
+    }
+    .nw-navigation-bar .logo h2 {
+        text-align: center;
+        font-size: 4em;
+        font-weight: bolder;
+    }
+    .nw-navigation-bar time {
+        font-family: "Oswald", sans-serif;
+        font-weight: 600;
+        bottom: 15px;
+        position: absolute;
+        color: #fff;
+        font-size: 20px;
+    }
+    .nw-bav-btns .fa-bars {
+        display: none;
+    }
+    .nw-bav-btns {
+        position: relative;
+        bottom: -42px;
+    }
+    .nw-bav-btns :first-child {
+        font-size: 20px;
+    }
+    .nw-bav-btns :nth-child(2) {
+        font-size: 20px;
+    }
+    .desktop-navigation {
+        display: inline;
+    }
+    .desktop-navigation ul {
+        list-style: none;
+        display: flex;
+        font-size: 21px;
+        width: 100%;
+        padding-left: unset;
+    }
+    .desktop-navigation li {
+        text-transform: capitalize;
+        font-size: 21px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-family: "Roboto Condensed", sans-serif;
+        flex-grow: 1;
+        text-align: center;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #d9d9d9;
+        cursor: pointer;
+    }
+    .desktop-navigation li:hover {
+        color: red;
+    }
+    .desktop-version-opinion {
+        display: inline;
     }
 }
