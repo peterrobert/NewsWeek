@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3, 
+h4, 
+h5, 
+h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -180,10 +185,14 @@ a:hover {
 }
 
 .culture-travel .card h5 {
-  font-family: auto;
   font-weight: 500;
   padding-top: 20px;
   padding-left: 10px;
+}
+
+.featured-stories p {
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .culture-travel .card p {
@@ -191,9 +200,10 @@ a:hover {
   color: #828282;
 }
 
-.featured-stories p {
-  font-size: 13px;
-  font-weight: 400;
+.nw-newsletter img {
+  height: 30px;
+  background-color: red;
+  margin-left: 20px;
 }
 
 .nw-new-section .opinion-section img {
@@ -205,11 +215,11 @@ a:hover {
   letter-spacing: -1px;
 }
 
-.nw-new-section .opinion-section .card:first-child {
+.latest-news-ff .card:first-child {
   border-top: unset;
 }
 
-.latest-news-ff .card:first-child {
+.nw-new-section .opinion-section .card:first-child {
   border-top: unset;
 }
 
@@ -221,12 +231,6 @@ a:hover {
   max-width: 300px;
   margin: 0 auto 30px;
   border: 1px solid #e5e5e5;
-}
-
-.nw-newsletter img {
-  height: 30px;
-  background-color: red;
-  margin-left: 20px;
 }
 
 .position-nw {
@@ -774,11 +778,9 @@ a:hover {
   .nw-footer li {
     border-right: 1px solid #d0c5c5;
   }
-
 }
 
 @media screen and (min-width: 992px) {
-
   .nw-navigation-bar {
     height: 90px;
   }
@@ -790,7 +792,7 @@ a:hover {
   .top-order {
     order: 2;
   }
-  
+
   .feature-order {
     order: 1;
   }
