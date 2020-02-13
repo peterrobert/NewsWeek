@@ -305,14 +305,11 @@ a:hover {
 
 .nw-mag-sec .card-body {
   margin-top: 10px;
+  color: #fff;
 }
 
 .nw-mag-sec h5 {
   padding-top: 10px;
-}
-
-.nw-mag-sec .card-body {
-  color: #fff;
 }
 
 .nw-mag-sec .in-active a {
@@ -689,7 +686,7 @@ a:hover {
 
   .next-to-footer .card-2 img {
     height: auto;
-    width: 30%;
+    width: 40%;
   }
 
   .next-to-footer .card-2 .card-body {
@@ -740,10 +737,6 @@ a:hover {
   .next-to-footer {
     border-top: 2px solid #eee;
     padding-top: 14px;
-  }
-
-  .next-to-footer .card-2 img {
-    width: 40%;
   }
 
   .next-to-footer .card-2 .card-body {
@@ -954,5 +947,5 @@ a:hover {
   .nw-footer li {
     border-right: 1px solid #d0c5c5;
   }
-  
+
 }
