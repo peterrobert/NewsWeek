@@ -690,9 +690,10 @@ a:hover {
   }
 
   .next-to-footer .card-2 .card-body {
-    width: 70%;
     border-top: 1px solid #eee;
-    padding: 2%;
+    width: 60%;
+    padding-left: 25px;
+    padding-top: 35px;
   }
 
   .next-to-footer .card-2 .card-body h5 {
@@ -739,12 +740,6 @@ a:hover {
     padding-top: 14px;
   }
 
-  .next-to-footer .card-2 .card-body {
-    width: 60%;
-    padding-left: 25px;
-    padding-top: 35px;
-  }
-
   .nw-footer {
     border-top: 2px solid #eee;
     padding-top: 14px;
@@ -759,6 +754,9 @@ a:hover {
 
   .social-media-icons {
     float: right;
+    border-bottom: unset;
+    position: relative;
+    top: 20px;
   }
 
   .nw-footer p {
@@ -767,12 +765,6 @@ a:hover {
     position: relative;
     bottom: -30px;
     font-size: small;
-  }
-
-  .social-media-icons {
-    border-bottom: unset;
-    position: relative;
-    top: 20px;
   }
 
   .nw-footer ul {
@@ -798,7 +790,7 @@ a:hover {
   .top-order {
     order: 2;
   }
-
+  
   .feature-order {
     order: 1;
   }
@@ -938,10 +930,6 @@ a:hover {
     border-bottom: unset;
     position: relative;
     top: 20px;
-  }
-
-  .nw-footer ul {
-    border-top: 1px solid #d0c5c5;
   }
 
   .nw-footer li {
