@@ -1,879 +1,873 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Roboto Condensed", sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 a {
-    color: #000;
+  color: #000;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #000;
+  text-decoration: underline;
+  color: #000;
 }
 
 .nw-navigation-bar {
-    width: 100%;
-    background-color: red;
-    height: 45px;
+  width: 100%;
+  background-color: red;
+  height: 45px;
 }
 
 .logo h2 {
-    font-family: "Merriweather", serif;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.4em;
-    margin-top: 8px;
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 8px;
 }
 
 .date {
-    display: none;
+  display: none;
 }
 
 .dummy {
-    display: none;
+  display: none;
 }
 
 .nw-bav-btns {
-    float: right;
-    margin-top: 1px;
+  float: right;
+  margin-top: 1px;
 }
 
 #signIn {
-    font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .nw-bav-btns :first-child {
-    background: transparent;
-    color: #fff;
-    text-transform: uppercase;
-    border: unset;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 0;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  border: unset;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0;
 }
 
 .nw-bav-btns :nth-child(2) {
-    background: #fff;
-    color: red;
-    text-transform: uppercase;
-    border: unset;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 0;
-    font-family: "Oswald", sans-serif;
+  background: #fff;
+  color: red;
+  text-transform: uppercase;
+  border: unset;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0;
+  font-family: "Oswald", sans-serif;
 }
 
 .desktop-navigation {
-    display: none;
+  display: none;
 }
 
 .nw-bav-btns :last-child {
-    background: transparent;
-    border: unset;
-    letter-spacing: 0;
+  background: transparent;
+  border: unset;
+  letter-spacing: 0;
 }
 
 .nw-bav-btns :last-child .fa-bars {
-    color: #fb9a94;
-    font-size: 30px;
-    font-weight: 200;
-    position: relative;
-    top: 4px;
+  color: #fb9a94;
+  font-size: 30px;
+  font-weight: 200;
+  position: relative;
+  top: 4px;
 }
 
 .nw-new-section {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .nw-new-section h1 {
-    color: rgba(3, 3, 3, 0.4);
-    font: bold 16px/16px "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
 }
 
 .nw-top-story .card {
-    width: 100%;
-    border: unset;
-    padding-bottom: 20px;
-    border-radius: unset;
+  width: 100%;
+  border: unset;
+  padding-bottom: 20px;
+  border-radius: unset;
 }
 
 .nw-top-story .card h5 {
-    color: #000;
-    font-weight: bolder;
-    text-transform: capitalize;
-    font-size: 22px;
+  color: #000;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 22px;
 }
 
 .nw-top-story .card-body {
-    padding: unset;
-    padding-top: 0px;
+  padding: unset;
+  padding-top: 0px;
 }
 
 .category {
-    background: #eee;
-    width: 98px;
-    height: 32px;
-    position: relative;
-    bottom: 32px;
-    color: red;
+  background: #eee;
+  width: 98px;
+  height: 32px;
+  position: relative;
+  bottom: 32px;
+  color: red;
 }
 
 .category h6 {
-    text-align: center;
-    padding-top: 7px;
-    text-transform: uppercase;
-    font-weight: 800;
+  text-align: center;
+  padding-top: 7px;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .more-stories .card {
-    border: unset;
-    border-top: 1px solid #ccc5c5;
-    padding-top: 20px;
-    border-radius: unset;
+  border: unset;
+  border-top: 1px solid #ccc5c5;
+  padding-top: 20px;
+  border-radius: unset;
 }
 
 .more-stories .card-body {
-    padding: unset;
-    padding-left: 20px;
+  padding: unset;
+  padding-left: 20px;
 }
 
 .more-stories a {
-    text-transform: capitalize;
-    font-weight: bolder;
+  text-transform: capitalize;
+  font-weight: bolder;
 }
 
 .more-stories p {
-    margin-top: -10px;
-    font-size: 13px;
+  margin-top: -10px;
+  font-size: 13px;
 }
 
 .culture-travel {
-    background-color: #eee;
-    width: 100%;
-    height: auto;
-    border-radius: 1px;
+  background-color: #eee;
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
 }
 
 .culture-travel h1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .culture-travel .nw-top-story .card {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 .culture-travel .category {
-    bottom: unset;
-    left: 10px;
-    width: 60px;
-    padding: 0px;
+  bottom: unset;
+  left: 10px;
+  width: 60px;
+  padding: 0px;
 }
 
 .culture-travel .category h6 {
-    color: #000;
-    text-transform: capitalize;
-    background-color: #c2d4d7;
+  color: #000;
+  text-transform: capitalize;
+  background-color: #c2d4d7;
 }
 
 .culture-travel .card h5 {
-    font-family: auto;
-    font-weight: 500;
-    padding-top: 20px;
-    padding-left: 10px;
+  font-family: auto;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .culture-travel .card p {
-    padding-left: 10px;
-    color: #828282;
+  padding-left: 10px;
+  color: #828282;
 }
 
 .featured-stories p {
-    font-size: 13px;
-    font-weight: 400;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .nw-new-section .opinion-section img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .nw-new-section .opinion-section p {
-    font-weight: 600;
-    letter-spacing: -1px;
+  font-weight: 600;
+  letter-spacing: -1px;
 }
 
 .nw-new-section .opinion-section .card:first-child {
-    border-top: unset;
+  border-top: unset;
 }
 
 .latest-news-ff .card:first-child {
-    border-top: unset;
+  border-top: unset;
 }
 
 .nw-newsletter {
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    background-color: #eee;
-    max-width: 300px;
-    margin: 0 auto 30px;
-    border: 1px solid #e5e5e5;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
 }
 
 .nw-newsletter img {
-    height: 30px;
-    background-color: red;
-    margin-left: 20px;
+  height: 30px;
+  background-color: red;
+  margin-left: 20px;
 }
 
 .position-nw {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .position-nw h3 {
-    font-weight: bold;
-    padding-left: 20px;
-    font-size: 19px;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 19px;
 }
 
 .news-letter-buttons {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .news-letter-buttons h6 {
-    padding-top: 10px;
-    color: #000;
-    font-weight: 600;
+  padding-top: 10px;
+  color: #000;
+  font-weight: 600;
 }
 
 .news-letter-buttons button {
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #fff;
-    background: grey;
-    height: 38px;
-    border: unset;
-    text-align: center;
-    outline: none;
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  background: grey;
+  height: 38px;
+  border: unset;
+  text-align: center;
+  outline: none;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
 }
 
 .opinion-section {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 .all-features .card-body {
-    margin-top: -32px;
-    background-color: #eee;
+  margin-top: -32px;
+  background-color: #eee;
 }
 
 .all-features h5 {
-    padding-top: 10px;
-    text-align: center;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .sec-title {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .sec-title img {
-    background-color: red;
-    height: 30px;
+  background-color: red;
+  height: 30px;
 }
 
 .sec-title h1 {
-    padding-top: 8px;
-    color: #000;
-    font-size: 20px;
+  padding-top: 8px;
+  color: #000;
+  font-size: 20px;
 }
 
 .active-btn a {
-    background-color: red;
-    color: #fff;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 3px;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: capitalize;
+  background-color: red;
+  color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 .nw-mag-sec .card-body {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .nw-mag-sec h5 {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .nw-mag-sec .card-body {
-    color: #fff;
+  color: #fff;
 }
 
 .nw-mag-sec .in-active a {
-    padding-left: 10px;
-    color: red;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: capitalize;
+  padding-left: 10px;
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 .nw-mag-sec h5 a {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .nw-mag-sec h5 a:hover {
-    text-decoration: underline red;
+  text-decoration: underline red;
 }
 
 .nw-mag-sec .ed-pick .card-body {
-    margin-top: -15px;
+  margin-top: -15px;
 }
 
 .nw-mag-sec .ed-pick h5 {
-    padding-top: unset;
+  padding-top: unset;
 }
 
 .ed-pick p {
-    color: #000;
-    font-size: 13px;
+  color: #000;
+  font-size: 13px;
 }
 
 .img-back-ground {
-    border-bottom: 3px solid red;
-    border-right: 3px solid red;
-    display: inline-table;
-    content: "";
-    width: 26px;
-    height: 25px;
-    padding-right: 2px;
-    padding-bottom: 2px;
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: inline-table;
+  content: "";
+  width: 26px;
+  height: 25px;
+  padding-right: 2px;
+  padding-bottom: 2px;
 }
 
 .feature-back-ground {
-    background-image: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png");
-    background-position: unset;
-    background-size: contain;
-    background-repeat: no-repeat;
-    max-width: 80px;
-    position: relative;
-    top: -44px;
+  background-image: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png");
+  background-position: unset;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 80px;
+  position: relative;
+  top: -44px;
 }
 
 .feature-back-ground h5 {
-    position: relative;
-    padding-left: 20px;
-    top: 3px;
-    color: red;
+  position: relative;
+  padding-left: 20px;
+  top: 3px;
+  color: red;
 }
 
 .featured-slide-show .card .card-body {
-    margin-top: -38px;
+  margin-top: -38px;
 }
 
 .us-section .card .card-body {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 .us-section h1 {
-    letter-spacing: 2px;
-    color: red;
-    text-transform: uppercase;
-    font-size: 25px;
+  letter-spacing: 2px;
+  color: red;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
 .us-section .latest-news-ff .card .card-body {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .us-section .latest-news-ff .card .card-body h5 a {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .us-section .latest-news-ff .card:first-child {
-    border-top: 1px solid #ccc5c5;
-    padding-top: 20px;
+  border-top: 1px solid #ccc5c5;
+  padding-top: 20px;
 }
 
 .bac-image-f {
-    background-color: #eee;
-    width: 100%;
-    height: auto;
+  background-color: #eee;
+  width: 100%;
+  height: auto;
 }
 
 .bac-image-f .imge-section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .bac-image-f img {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bac-image-f h3 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .bac-image-f h4 {
-    font-size: 17px;
-    text-align: center;
-    padding-top: 20px;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .next-to-footer h2 {
-    padding-bottom: 10px;
-    color: red;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
+  padding-bottom: 10px;
+  color: red;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .next-footer-btn {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .next-footer-btn button {
-    margin-top: 20px;
-    color: #fff;
-    background: red;
-    border: unset;
-    padding: 5px;
-    font-weight: 800;
-    font-size: 20px;
-    font-family: "Roboto Condensed", sans-serif;
-    letter-spacing: 2px;
-    outline: none;
+  margin-top: 20px;
+  color: #fff;
+  background: red;
+  border: unset;
+  padding: 5px;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 2px;
+  outline: none;
 }
 
 .next-to-footer .card img {
-    height: 150px;
-    object-fit: cover;
+  height: 150px;
+  object-fit: cover;
 }
 
 .next-to-footer .card {
-    border: none;
+  border: none;
 }
 
 .next-to-footer .card-body {
-    text-align: center;
+  text-align: center;
 }
 
 .sub-1 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .next-to-footer .card-body {
-    border-bottom: 1px solid #eee;
-    border-right: 1px solid #eee;
-    border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
 
 .next-to-footer .card-body h5 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .next-to-footer .card-body p {
-    font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-bottom: 25px;
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
 }
 
 .next-to-footer .card-body a {
-    background-color: #f72210;
-    display: inline-block;
-    padding: 10px 10px 10px 12px;
-    color: white;
-    font: bold 18px/18px "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    border: unset;
-    outline: none;
+  background-color: #f72210;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  border: unset;
+  outline: none;
 }
 
 .nw-footer {
-    border-top: 1px solid #eee;
+  border-top: 1px solid #eee;
 }
 
 .nw-footer .logo h2 {
-    color: red;
-    font-size: 2em;
+  color: red;
+  font-size: 2em;
 }
 
 .nw-footer i {
-    font-size: 26px;
-    cursor: pointer;
-    padding: 5px;
-    color: grey;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 5px;
+  color: grey;
 }
 
 .social-media-icons {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
 }
 
 .nw-footer ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
 .nw-footer li {
-    padding: 5px;
-    color: grey;
-    text-transform: capitalize;
+  padding: 5px;
+  color: grey;
+  text-transform: capitalize;
 }
-
 
 /* media queries */
 
 @media screen and (min-width: 768px) {
-    .top-order {
-        order: 2;
-    }
-    .feature-order {
-        order: 1;
-    }
-    .opinion-latest-news {
-        order: 3;
-    }
-    .sticky-sec {
-        position: sticky;
-        top: 0;
-        z-index: 0;
-    }
-    .m-ct-row {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-    .culture-travel {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .culture-travel h1 {
-        width: 100%;
-    }
-    .culture-travel .nw-top-story {
-        width: 50%;
-        padding-right: 10px;
-    }
-    .culture-travel .nw-top-story h5 {
-        font-size: 20px;
-    }
-    .culture-travel .card p {
-        line-height: 18px;
-    }
-    .ed-pick-rep {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .ed-pick-rep .sec-title {
-        width: 100%;
-    }
-    .ed-pick-rep .ed-pick {
-        width: 50%;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .ed-pick-rep hr {
-        width: 100%;
-    }
-    .feature-1 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .feature-1 .sec-title {
-        width: 100%;
-    }
-    .feature-1 hr {
-        width: 100%;
-    }
-    .feature-1 .card {
-        width: 33.33%;
-        padding-left: 2%;
-        padding-right: 2%;
-        border-radius: unset;
-    }
-    .us-section {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .us-section hr {
-        width: 100%;
-    }
-    .us-section h1 {
-        width: 100%;
-    }
-    .us-section .card {
-        width: 33.33%;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    .us-section-2 {
-        width: 33.33%;
-    }
-    .us-section-2 .card {
-        width: 100%;
-    }
-    .us-section-2 .card-img {
-        border-radius: unset;
-        object-fit: cover;
-    }
-    .next-to-footer .imge-section {
-        display: unset;
-        justify-content: unset;
-    }
-    .next-to-footer .imge-contents h3 {
-        text-align: left;
-        padding-left: 1%;
-    }
-    .next-to-footer .imge-contents h4 {
-        text-align: left;
-        padding-left: 1%;
-    }
-    .next-to-footer .next-footer-btn {
-        justify-content: left;
-        padding-left: 1%;
-    }
-    .imge-contents {
-        margin-top: 45px;
-    }
-    .bac-image-f img {
-        padding-left: 20px;
-    }
-    .next-to-footer .card-2 {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-    }
-    .next-to-footer .card-2 img {
-        height: auto;
-        width: 30%;
-    }
-    .next-to-footer .card-2 .card-body {
-        width: 70%;
-        border-top: 1px solid #eee;
-        padding: 2%;
-    }
-    .next-to-footer .card-2 .card-body h5 {
-        text-align: left;
-    }
-    .next-to-footer .card-2 .card-body p {
-        text-align: left;
-    }
-    .next-to-footer .card-2 .card-body a {
-        display: table;
-    }
-    .al-f-ed-pik {
-        display: flex;
-    }
-    .al-f-ed-pik .all-features {
-        width: 100%;
-    }
-    .al-f-ed-pik .card-side {
-        margin-top: 61px;
-    }
-    .al-f-ed-pik .dis-mag {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .al-f-ed-pik .dis-mag .sec-title {
-        width: 100%;
-    }
-    .al-f-ed-pik .dis-mag .nw-new-section {
-        width: 33.33%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-    .next-to-footer {
-        border-top: 2px solid #eee;
-        padding-top: 14px;
-    }
-    .next-to-footer .card-2 img {
-        width: 40%;
-    }
-    .next-to-footer .card-2 .card-body {
-        width: 60%;
-        padding-left: 25px;
-        padding-top: 35px;
-    }
-    .nw-footer {
-        border-top: 2px solid #eee;
-        padding-top: 14px;
-    }
-    .nw-footer .logo h2 {
-        position: relative;
-        font-size: 2.2em;
-        font-weight: 800;
-        top: 5px;
-    }
-    .social-media-icons {
-        float: right;
-    }
-    .nw-footer p {
-        color: grey;
-        font-weight: 400;
-        position: relative;
-        bottom: -30px;
-        font-size: small;
-    }
-    .social-media-icons {
-        border-bottom: unset;
-        position: relative;
-        top: 20px;
-    }
-    .nw-footer ul {
-        border-top: 1px solid #d0c5c5;
-    }
-    .nw-footer li {
-        border-right: 1px solid #d0c5c5;
-    }
+  .top-order {
+    order: 2;
+  }
+  .feature-order {
+    order: 1;
+  }
+  .opinion-latest-news {
+    order: 3;
+  }
+  .sticky-sec {
+    position: sticky;
+    top: 0;
+    z-index: 0;
+  }
+  .m-ct-row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .culture-travel {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .culture-travel h1 {
+    width: 100%;
+  }
+  .culture-travel .nw-top-story {
+    width: 50%;
+    padding-right: 10px;
+  }
+  .culture-travel .nw-top-story h5 {
+    font-size: 20px;
+  }
+  .culture-travel .card p {
+    line-height: 18px;
+  }
+  .ed-pick-rep {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ed-pick-rep .sec-title {
+    width: 100%;
+  }
+  .ed-pick-rep .ed-pick {
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .ed-pick-rep hr {
+    width: 100%;
+  }
+  .feature-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .feature-1 .sec-title {
+    width: 100%;
+  }
+  .feature-1 hr {
+    width: 100%;
+  }
+  .feature-1 .card {
+    width: 33.33%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: unset;
+  }
+  .us-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .us-section hr {
+    width: 100%;
+  }
+  .us-section h1 {
+    width: 100%;
+  }
+  .us-section .card {
+    width: 33.33%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .us-section-2 {
+    width: 33.33%;
+  }
+  .us-section-2 .card {
+    width: 100%;
+  }
+  .us-section-2 .card-img {
+    border-radius: unset;
+    object-fit: cover;
+  }
+  .next-to-footer .imge-section {
+    display: unset;
+    justify-content: unset;
+  }
+  .next-to-footer .imge-contents h3 {
+    text-align: left;
+    padding-left: 1%;
+  }
+  .next-to-footer .imge-contents h4 {
+    text-align: left;
+    padding-left: 1%;
+  }
+  .next-to-footer .next-footer-btn {
+    justify-content: left;
+    padding-left: 1%;
+  }
+  .imge-contents {
+    margin-top: 45px;
+  }
+  .bac-image-f img {
+    padding-left: 20px;
+  }
+  .next-to-footer .card-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .next-to-footer .card-2 img {
+    height: auto;
+    width: 30%;
+  }
+  .next-to-footer .card-2 .card-body {
+    width: 70%;
+    border-top: 1px solid #eee;
+    padding: 2%;
+  }
+  .next-to-footer .card-2 .card-body h5 {
+    text-align: left;
+  }
+  .next-to-footer .card-2 .card-body p {
+    text-align: left;
+  }
+  .next-to-footer .card-2 .card-body a {
+    display: table;
+  }
+  .al-f-ed-pik {
+    display: flex;
+  }
+  .al-f-ed-pik .all-features {
+    width: 100%;
+  }
+  .al-f-ed-pik .card-side {
+    margin-top: 61px;
+  }
+  .al-f-ed-pik .dis-mag {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .al-f-ed-pik .dis-mag .sec-title {
+    width: 100%;
+  }
+  .al-f-ed-pik .dis-mag .nw-new-section {
+    width: 33.33%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .next-to-footer {
+    border-top: 2px solid #eee;
+    padding-top: 14px;
+  }
+  .next-to-footer .card-2 img {
+    width: 40%;
+  }
+  .next-to-footer .card-2 .card-body {
+    width: 60%;
+    padding-left: 25px;
+    padding-top: 35px;
+  }
+  .nw-footer {
+    border-top: 2px solid #eee;
+    padding-top: 14px;
+  }
+  .nw-footer .logo h2 {
+    position: relative;
+    font-size: 2.2em;
+    font-weight: 800;
+    top: 5px;
+  }
+  .social-media-icons {
+    float: right;
+  }
+  .nw-footer p {
+    color: grey;
+    font-weight: 400;
+    position: relative;
+    bottom: -30px;
+    font-size: small;
+  }
+  .social-media-icons {
+    border-bottom: unset;
+    position: relative;
+    top: 20px;
+  }
+  .nw-footer ul {
+    border-top: 1px solid #d0c5c5;
+  }
+  .nw-footer li {
+    border-right: 1px solid #d0c5c5;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .nw-navigation-bar {
-        height: 90px;
-    }
-    .date {
-        display: inline;
-    }
-    .top-order {
-        order: 2;
-    }
-    .feature-order {
-        order: 1;
-    }
-    .opinion-latest-news {
-        order: 3;
-    }
-    .nw-navigation-bar .logo h2 {
-        text-align: center;
-        font-size: 4em;
-        font-weight: bolder;
-    }
-    .nw-navigation-bar .time {
-        font-family: "Oswald", sans-serif;
-        font-weight: 600;
-        bottom: 15px;
-        position: absolute;
-        color: #fff;
-        font-size: 20px;
-    }
-    .nw-bav-btns .fa-bars {
-        display: none;
-    }
-    .nw-bav-btns {
-        position: relative;
-        bottom: -42px;
-    }
-    .nw-bav-btns :first-child {
-        font-size: 20px;
-    }
-    .nw-bav-btns :nth-child(2) {
-        font-size: 20px;
-    }
-    .desktop-navigation {
-        display: inline;
-    }
-    .desktop-navigation ul {
-        list-style: none;
-        display: flex;
-        font-size: 21px;
-        width: 100%;
-        padding-left: unset;
-        border-bottom: 2px solid #eee;
-        padding-bottom: 11px;
-    }
-    .desktop-navigation li {
-        text-transform: capitalize;
-        font-size: 21px;
-        margin-top: 10px;
-        font-weight: bold;
-        font-family: "Roboto Condensed", sans-serif;
-        flex-grow: 1;
-        text-align: center;
-        border-left-width: 1px;
-        border-left-style: solid;
-        border-left-color: #d9d9d9;
-        cursor: pointer;
-    }
-    .desktop-navigation li:hover {
-        color: red;
-    }
-    .desktop-version-opinion {
-        display: inline;
-    }
-    .ed-pick-rep .ed-pick {
-        width: 25%;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .news-letter-sec .card {
-        min-height: 266px;
-    }
-    .next-to-footer .imge-contents h3 {
-        padding-left: 40px;
-    }
-    .next-to-footer .imge-contents h4 {
-        padding-left: 40px;
-    }
-    .next-to-footer .next-footer-btn {
-        padding-left: 40px;
-    }
-    .next-to-footer {
-        border-top: 2px solid #eee;
-        padding-top: 14px;
-    }
-    .next-to-footer .card-2 img {
-        width: 40%;
-    }
-    .next-to-footer .card-2 .card-body {
-        width: 60%;
-        padding-left: 25px;
-        padding-top: 35px;
-    }
-    .nw-footer {
-        border-top: 2px solid #eee;
-        padding-top: 14px;
-    }
-    .nw-footer .logo h2 {
-        font-size: 2.5em;
-        font-weight: 800;
-    }
-    .social-media-icons {
-        float: right;
-    }
-    .nw-footer p {
-        color: grey;
-        font-weight: 400;
-        position: relative;
-        bottom: -30px;
-        font-size: small;
-    }
-    .social-media-icons {
-        border-bottom: unset;
-        position: relative;
-        top: 20px;
-    }
-    .nw-footer ul {
-        border-top: 1px solid #d0c5c5;
-    }
-    .nw-footer li {
-        border-right: 1px solid #d0c5c5;
-    }
+  .nw-navigation-bar {
+    height: 90px;
+  }
+  .date {
+    display: inline;
+  }
+  .top-order {
+    order: 2;
+  }
+  .feature-order {
+    order: 1;
+  }
+  .opinion-latest-news {
+    order: 3;
+  }
+  .nw-navigation-bar .logo h2 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+  }
+  .nw-navigation-bar .time {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    bottom: 15px;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+  }
+  .nw-bav-btns .fa-bars {
+    display: none;
+  }
+  .nw-bav-btns {
+    position: relative;
+    bottom: -42px;
+  }
+  .nw-bav-btns :first-child {
+    font-size: 20px;
+  }
+  .nw-bav-btns :nth-child(2) {
+    font-size: 20px;
+  }
+  .desktop-navigation {
+    display: inline;
+  }
+  .desktop-navigation ul {
+    list-style: none;
+    display: flex;
+    font-size: 21px;
+    width: 100%;
+    padding-left: unset;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 11px;
+  }
+  .desktop-navigation li {
+    text-transform: capitalize;
+    font-size: 21px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    flex-grow: 1;
+    text-align: center;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #d9d9d9;
+    cursor: pointer;
+  }
+  .desktop-navigation li:hover {
+    color: red;
+  }
+  .desktop-version-opinion {
+    display: inline;
+  }
+  .ed-pick-rep .ed-pick {
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .news-letter-sec .card {
+    min-height: 266px;
+  }
+  .next-to-footer .imge-contents h3 {
+    padding-left: 40px;
+  }
+  .next-to-footer .imge-contents h4 {
+    padding-left: 40px;
+  }
+  .next-to-footer .next-footer-btn {
+    padding-left: 40px;
+  }
+  .next-to-footer {
+    border-top: 2px solid #eee;
+    padding-top: 14px;
+  }
+  .next-to-footer .card-2 img {
+    width: 40%;
+  }
+  .next-to-footer .card-2 .card-body {
+    width: 60%;
+    padding-left: 25px;
+    padding-top: 35px;
+  }
+  .nw-footer {
+    border-top: 2px solid #eee;
+    padding-top: 14px;
+  }
+  .nw-footer .logo h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+  }
+  .social-media-icons {
+    float: right;
+  }
+  .nw-footer p {
+    color: grey;
+    font-weight: 400;
+    position: relative;
+    bottom: -30px;
+    font-size: small;
+  }
+  .social-media-icons {
+    border-bottom: unset;
+    position: relative;
+    top: 20px;
+  }
+  .nw-footer ul {
+    border-top: 1px solid #d0c5c5;
+  }
+  .nw-footer li {
+    border-right: 1px solid #d0c5c5;
+  }
 }
