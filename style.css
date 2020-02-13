@@ -104,6 +104,22 @@ a:hover {
   border-radius: unset;
 }
 
+.all-features h5 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.nw-mag-sec h5 {
+  padding-top: 10px;
+}
+
+.feature-back-ground h5 {
+  position: relative;
+  padding-left: 20px;
+  top: 3px;
+  color: red;
+}
+
 .nw-top-story .card h5 {
   color: #000;
   font-weight: bolder;
@@ -167,6 +183,10 @@ a:hover {
   padding-left: 10px;
 }
 
+.next-to-footer .card {
+  border: none;
+}
+
 .culture-travel .nw-top-story .card {
   background-color: #eee;
 }
@@ -176,6 +196,12 @@ a:hover {
   left: 10px;
   width: 60px;
   padding: 0;
+}
+
+.news-letter-buttons h6 {
+  padding-top: 10px;
+  color: #000;
+  font-weight: 600;
 }
 
 .culture-travel .category h6 {
@@ -195,6 +221,11 @@ a:hover {
   font-weight: 400;
 }
 
+.ed-pick p {
+  color: #000;
+  font-size: 13px;
+}
+
 .culture-travel .card p {
   padding-left: 10px;
   color: #828282;
@@ -204,6 +235,16 @@ a:hover {
   height: 30px;
   background-color: red;
   margin-left: 20px;
+}
+
+.sec-title img {
+  background-color: red;
+  height: 30px;
+}
+
+.bac-image-f img {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .nw-new-section .opinion-section img {
@@ -247,12 +288,6 @@ a:hover {
   padding-left: 40px;
 }
 
-.news-letter-buttons h6 {
-  padding-top: 10px;
-  color: #000;
-  font-weight: 600;
-}
-
 .news-letter-buttons button {
   text-transform: uppercase;
   font-weight: 800;
@@ -275,19 +310,9 @@ a:hover {
   background-color: #eee;
 }
 
-.all-features h5 {
-  padding-top: 10px;
-  text-align: center;
-}
-
 .sec-title {
   display: flex;
   justify-content: center;
-}
-
-.sec-title img {
-  background-color: red;
-  height: 30px;
 }
 
 .sec-title h1 {
@@ -312,8 +337,8 @@ a:hover {
   color: #fff;
 }
 
-.nw-mag-sec h5 {
-  padding-top: 10px;
+.nw-mag-sec h5 a {
+  font-size: 20px;
 }
 
 .nw-mag-sec .in-active a {
@@ -322,10 +347,6 @@ a:hover {
   font-weight: 700;
   font-size: 20px;
   text-transform: capitalize;
-}
-
-.nw-mag-sec h5 a {
-  font-size: 20px;
 }
 
 .next-to-footer .card-body a {
@@ -344,13 +365,10 @@ a:hover {
 }
 
 .next-to-footer .card-body {
-  text-align: center;
-}
-
-.next-to-footer .card-body {
   border-bottom: 1px solid #eee;
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
+  text-align: center;
 }
 
 .nw-mag-sec .ed-pick .card-body {
@@ -359,11 +377,6 @@ a:hover {
 
 .nw-mag-sec .ed-pick h5 {
   padding-top: unset;
-}
-
-.ed-pick p {
-  color: #000;
-  font-size: 13px;
 }
 
 .img-back-ground {
@@ -385,13 +398,6 @@ a:hover {
   max-width: 80px;
   position: relative;
   top: -44px;
-}
-
-.feature-back-ground h5 {
-  position: relative;
-  padding-left: 20px;
-  top: 3px;
-  color: red;
 }
 
 .featured-slide-show .card .card-body {
@@ -431,11 +437,6 @@ a:hover {
 .bac-image-f .imge-section {
   display: flex;
   justify-content: center;
-}
-
-.bac-image-f img {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .bac-image-f h3 {
@@ -480,10 +481,6 @@ a:hover {
 .next-to-footer .card img {
   height: 150px;
   object-fit: cover;
-}
-
-.next-to-footer .card {
-  border: none;
 }
 
 .sub-1 {
