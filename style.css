@@ -549,6 +549,9 @@ a:hover {
     .feature-order {
         order: 1;
     }
+    .opinion-latest-news {
+        order: 3;
+    }
     .sticky-sec {
         position: sticky;
         top: 0;
@@ -711,6 +714,15 @@ a:hover {
     }
     .date {
         display: inline;
+    }
+    .top-order {
+        order: 2;
+    }
+    .feature-order {
+        order: 1;
+    }
+    .opinion-latest-news {
+        order: 3;
     }
     .nw-navigation-bar .logo h2 {
         text-align: center;
