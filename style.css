@@ -328,8 +328,29 @@ a:hover {
   font-size: 20px;
 }
 
+.next-to-footer .card-body a {
+  background-color: #f72210;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  border: unset;
+  outline: none;
+}
+
 .nw-mag-sec h5 a:hover {
   text-decoration: underline red;
+}
+
+.next-to-footer .card-body {
+  text-align: center;
+}
+
+.next-to-footer .card-body {
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
 
 .nw-mag-sec .ed-pick .card-body {
@@ -465,18 +486,8 @@ a:hover {
   border: none;
 }
 
-.next-to-footer .card-body {
-  text-align: center;
-}
-
 .sub-1 {
   padding-bottom: 20px;
-}
-
-.next-to-footer .card-body {
-  border-bottom: 1px solid #eee;
-  border-right: 1px solid #eee;
-  border-left: 1px solid #eee;
 }
 
 .next-to-footer .card-body h5 {
@@ -488,17 +499,6 @@ a:hover {
 .next-to-footer .card-body p {
   font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 25px;
-}
-
-.next-to-footer .card-body a {
-  background-color: #f72210;
-  display: inline-block;
-  padding: 10px 10px 10px 12px;
-  color: white;
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  border: unset;
-  outline: none;
 }
 
 .nw-footer {
@@ -577,6 +577,14 @@ a:hover {
 
   .culture-travel .nw-top-story h5 {
     font-size: 20px;
+  }
+
+  .nw-footer p {
+    color: grey;
+    font-weight: 400;
+    position: relative;
+    bottom: -30px;
+    font-size: small;
   }
 
   .culture-travel .card p {
@@ -763,14 +771,6 @@ a:hover {
     top: 20px;
   }
 
-  .nw-footer p {
-    color: grey;
-    font-weight: 400;
-    position: relative;
-    bottom: -30px;
-    font-size: small;
-  }
-
   .nw-footer ul {
     border-top: 1px solid #d0c5c5;
   }
@@ -861,6 +861,10 @@ a:hover {
     cursor: pointer;
   }
 
+  .nw-footer li {
+    border-right: 1px solid #d0c5c5;
+  }
+
   .desktop-navigation li:hover {
     color: red;
   }
@@ -918,6 +922,9 @@ a:hover {
 
   .social-media-icons {
     float: right;
+    border-bottom: unset;
+    position: relative;
+    top: 20px;
   }
 
   .nw-footer p {
@@ -927,15 +934,4 @@ a:hover {
     bottom: -30px;
     font-size: small;
   }
-
-  .social-media-icons {
-    border-bottom: unset;
-    position: relative;
-    top: 20px;
-  }
-
-  .nw-footer li {
-    border-right: 1px solid #d0c5c5;
-  }
-
 }
