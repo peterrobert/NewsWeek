@@ -649,12 +649,15 @@ a:hover {
     }
     .next-to-footer .imge-contents h3 {
         text-align: left;
+        padding-left: 1%;
     }
     .next-to-footer .imge-contents h4 {
         text-align: left;
+        padding-left: 1%;
     }
     .next-to-footer .next-footer-btn {
         justify-content: left;
+        padding-left: 1%;
     }
     .imge-contents {
         margin-top: 45px;
@@ -706,6 +709,49 @@ a:hover {
         padding-left: 1%;
         padding-right: 1%;
     }
+    .next-to-footer {
+        border-top: 2px solid #eee;
+        padding-top: 14px;
+    }
+    .next-to-footer .card-2 img {
+        width: 40%;
+    }
+    .next-to-footer .card-2 .card-body {
+        width: 60%;
+        padding-left: 25px;
+        padding-top: 35px;
+    }
+    .nw-footer {
+        border-top: 2px solid #eee;
+        padding-top: 14px;
+    }
+    .nw-footer .logo h2 {
+        position: relative;
+        font-size: 2.2em;
+        font-weight: 800;
+        top: 5px;
+    }
+    .social-media-icons {
+        float: right;
+    }
+    .nw-footer p {
+        color: grey;
+        font-weight: 400;
+        position: relative;
+        bottom: -30px;
+        font-size: small;
+    }
+    .social-media-icons {
+        border-bottom: unset;
+        position: relative;
+        top: 20px;
+    }
+    .nw-footer ul {
+        border-top: 1px solid #d0c5c5;
+    }
+    .nw-footer li {
+        border-right: 1px solid #d0c5c5;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -729,7 +775,7 @@ a:hover {
         font-size: 4em;
         font-weight: bolder;
     }
-    .nw-navigation-bar time {
+    .nw-navigation-bar .time {
         font-family: "Oswald", sans-serif;
         font-weight: 600;
         bottom: 15px;
@@ -759,6 +805,8 @@ a:hover {
         font-size: 21px;
         width: 100%;
         padding-left: unset;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 11px;
     }
     .desktop-navigation li {
         text-transform: capitalize;
@@ -786,6 +834,15 @@ a:hover {
     }
     .news-letter-sec .card {
         min-height: 266px;
+    }
+    .next-to-footer .imge-contents h3 {
+        padding-left: 40px;
+    }
+    .next-to-footer .imge-contents h4 {
+        padding-left: 40px;
+    }
+    .next-to-footer .next-footer-btn {
+        padding-left: 40px;
     }
     .next-to-footer {
         border-top: 2px solid #eee;
