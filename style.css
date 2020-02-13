@@ -767,4 +767,9 @@ a:hover {
     .desktop-version-opinion {
         display: inline;
     }
+    .ed-pick-rep .ed-pick {
+        width: 25%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
