@@ -30,14 +30,6 @@ a:hover {
   margin-top: 8px;
 }
 
-.date {
-  display: none;
-}
-
-.dummy {
-  display: none;
-}
-
 .nw-bav-btns {
   float: right;
   margin-top: 1px;
@@ -66,10 +58,6 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0;
   font-family: "Oswald", sans-serif;
-}
-
-.desktop-navigation {
-  display: none;
 }
 
 .nw-bav-btns :last-child {
@@ -260,7 +248,6 @@ a:hover {
 
 .nw-newsletter {
   height: 160px;
-  display: flex;
   justify-content: center;
   background-color: #eee;
   max-width: 300px;
@@ -807,10 +794,6 @@ a:hover {
     font-size: 20px;
   }
 
-  .nw-bav-btns .fa-bars {
-    display: none;
-  }
-
   .nw-bav-btns {
     position: relative;
     bottom: -42px;
@@ -822,10 +805,6 @@ a:hover {
 
   .nw-bav-btns :nth-child(2) {
     font-size: 20px;
-  }
-
-  .desktop-navigation {
-    display: inline;
   }
 
   .desktop-navigation ul {
