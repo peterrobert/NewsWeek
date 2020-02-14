@@ -1,6 +1,6 @@
 # The News Week clone
 
-> This is the seventh project on the microverse bootcamp program
+> This is the seventh project on the microverse program
 
 ![screenshot](screenshot.png)
 

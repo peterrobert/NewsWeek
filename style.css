@@ -100,7 +100,6 @@ a:hover {
 .nw-top-story .card {
   width: 100%;
   border: unset;
-  padding-bottom: 20px;
   border-radius: unset;
 }
 
@@ -125,11 +124,6 @@ a:hover {
   font-weight: bolder;
   text-transform: capitalize;
   font-size: 22px;
-}
-
-.nw-top-story .card-body {
-  padding: unset;
-  padding-top: 0;
 }
 
 .category {
