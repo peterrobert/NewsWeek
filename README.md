@@ -1,6 +1,6 @@
 # The News Week clone
 
-> This is the seventh project on the microverse program
+> This is the seventh project on the microverse program we create a clons for news week website
 
 ![screenshot](screenshot.png)
 
